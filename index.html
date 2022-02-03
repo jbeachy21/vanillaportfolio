@@ -14,39 +14,77 @@
   
   <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-icon-180x180.png">
   <link href="./assets/favicon.ico" rel="icon">
-
-  <title>Title page</title>  
+  <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
+  <script src="https://unpkg.com/@popperjs/core@2"></script>
+  <script src="https://unpkg.com/tippy.js@6"></script>
+  <title>Jasper Beachy</title>  
 
 <link href="./main.d8e0d294.css" rel="stylesheet"></head>
 
 <body class="">
 
 <!-- Add your content of header -->
-<div class="background-color-layer" style="background-image: url('assets/images/img-01.jpg')"
+<div class="background-color-layer" style="background-image: url('assets/images/profile.jpg')"
 ></div>
 <main class="content-wrapper">
   <header class="white-text-container section-container">
     <div class="text-center">
-      <h1>I am David Folley</h1>
-      <p>Web designer</p>
+      <h1>I am Jasper Beachy</h1>
+      <p>Software Engineer</p>
+      <p><a id="tryhackme"><script src="https://tryhackme.com/badge/913976"></script></a></p>
       <p>
-        <a class="fa-icon fa-icon-2x" href="https://facebook.com/" title="">
-          <i class="fa fa-facebook"></i>
+        <!-- <a class="fa-icon fa-icon-2x" href="https://hackerone.com/byebugz?type=user" title="" class="hackerone">
+          <span class="iconify-inline" data-icon="cib:hackerone"></span>
+        </a> -->
+        <a class="fa-icon fa-icon-2x" href="https://stackoverflow.com/users/3835663/jbeachy" title="" class="stackoverflow">
+          <span class="iconify-inline" data-icon="akar-icons:stack-overflow-fill"></span>
         </a>
-        <a class="fa-icon fa-icon-2x" href="https://twitter.com/" title="">
-          <i class="fa fa-twitter"></i>
-        </a>
-        <a class="fa-icon fa-icon-2x" href="https://dribbble.com/" title="">
-          <i class="fa fa-dribbble"></i>
-        </a>
-        <a class="fa-icon fa-icon-2x" href="https://www.linkedin.com/" title="">
+        <!-- <a class="fa-icon fa-icon-2x" href="https://www.intigriti.com/" title="" class="intigriti">
+          <span class="iconify-inline" data-icon="simple-icons:intigriti"></span>
+        </a> -->
+        <a class="fa-icon fa-icon-2x" href="https://www.linkedin.com/in/jasperbeachy" title="" class="linkedin">
           <i class="fa fa-linkedin"></i>
         </a>
-        <a class="fa-icon fa-icon-2x" href="https://vimeo.com/" title="">
-          <i class="fa fa-vimeo"></i>
+        <!-- <a class="fa-icon fa-icon-2x" href="https://dev.to/jbeachy21" title="" class="dev">
+          <span class="iconify-inline" data-icon="bx:bxl-dev-to"></span>
         </a>
+        <a class="fa-icon fa-icon-2x" href="https://bugcrowd.com/byebugz" title="" class="bugcrowd">
+          <span class="iconify-inline" data-icon="simple-icons:bugcrowd"></span>
+        </a> -->
+        <a class="fa-icon fa-icon-2x" href="https://github.com/jbeachy21" title="" class="github">
+          <span class="iconify-inline" data-icon="akar-icons:github-fill"></span>
+        </a>
+
+
+        
       </p>
     </div>
+    <script>
+      tippy('#tryhackme', {
+        content: 'TryHackMe',
+      });
+      tippy('.hackerone', {
+        content: 'HackerOne',
+      });
+      tippy('.stackoverflow', {
+        content: 'Stack Overflow',
+      });
+      tippy('.intigriti', {
+        content: 'Intigriti',
+      });
+      tippy('.linkedin', {
+        content: 'LinkedIn',
+      });
+      tippy('.dev', {
+        content: 'Dev',
+      });
+      tippy('.bugcrowd', {
+        content: 'Bug Crowd',
+      });
+      tippy('.github', {
+        content: 'Github',
+      });
+    </script>
   </header>
 
 
@@ -62,7 +100,7 @@
             <h2>About me</h2>
             <div class="row">
               <div class="col-md-4">
-                <p><img src="./assets/images/img-01.jpg" class="img-responsive" alt=""></p>
+                <p><img src="./assets/images/profile.jpg" class="img-responsive" alt=""></p>
               </div>
               <div class="col-md-8">
 
@@ -101,18 +139,27 @@
           <div class="card-block">
             <h2>Work</h2>
             <div class="work-experience">
-              <small class="date">2017-2015</small>
-              <h3 class="h5 date-title">Web developer - <a href="http://en.orson.io" title="Create professionnal website">Orson.io</a></h3>
-              
-
-              <p>Leo vel orci porta non pulvinar neque laoreet suspendisse interdum. Vitae ultricies leo integer malesuada nunc. Imperdiet proin fermentum leo vel orci porta non pulvinar neque. Fermentum leo vel orci porta non. Posuere sollicitudin aliquam ultrices sagittis. Aliquam faucibus purus in massa tempor nec.</p>
+              <small class="date">2021-2022</small>
+              <h3 class="h5 date-title">Cyber Security Fellow - <a href="https://www.springboard.com/" title="">Springboard</a></h3>
+              <p>Systems security, network security, vulnerability, risk assessment, red team, blue team, Perl, Python, 
+                Powershell, OS Hardening, Threat Intelligence, HIPAA, ISO 27001, SOAR, SIEM, SDLC, Digital Forensics, Kali, 
+                Windows, EDR, Incident response, DLP, FIM, MITRE ATT&CK, OSINT, TCP/IP</p>
             </div>
 
             <div class="work-experience">
-              <small class="date">2017-2015</small>
-              <h3 class="h5 date-title">Web developer - <a href="http://mashup-template.com" title="">Mashup Template</a></h3>
+              <small class="date">2021</small>
+              <h3 class="h5 date-title">Front End Developer - <a href="https://flywheel.io/" title="Flywheel">Flywheel</a></h3>
               
-              <p>Fermentum leo vel orci porta non. Posuere sollicitudin aliquam ultrices sagittis. Aliquam faucibus purus in massa tempor nec.</p>
+              <p>Tech stack: Angular, TypeScript, JavaScript, SCSS, Rxjs, HTML, Node, Python</p>
+              <p>Replaced existing document viewer with Monaco Code Editor improving the user experience using
+              TypeScript, Angular and SCSS to ease collaboration between scientists using the Flywheel platform</p>
+            </div>
+
+            <div class="work-experience">
+              <small class="date">2019-2020</small>
+              <h3 class="h5 date-title">Front End Developer - <a href="https://definer.org/" title="">DeFiner</a></h3>
+              <p>Tech stack: Angular, TypeScript, JavaScript, SCSS, npm, Node</p>
+              <p>Optimized mobile responsiveness resulting in a more succinct and user-friendly main site</p>
             </div>
           </div>
         </div>
@@ -124,24 +171,24 @@
             <div class="row">
               <div class="col-md-4">
                 <div class="education-experience">
-                  <small class="date">2017-2015</small>
-                  <h3 class="h5 date-title">Design Master</h3>
-                  <p>Chicago University</p>
+                  <small class="date">2012-2018</small>
+                  <h3 class="h5 date-title">B.A Chemistry</h3>
+                  <p>Gustavus Adolphus college</p>
                 </div>
                 
               </div>
               <div class="col-md-4">
                 <div class="education-experience">
-                  <small class="date">2015-2012</small>
-                  <h3 class="h5 date-title">Metrics Degree</h3>
-                  <p>Ecole 87</p>
+                  <small class="date">2018-2019</small>
+                  <h3 class="h5 date-title">Full Stack Web Development</h3>
+                  <p>University of Minnesota - Twin Cities</p>
                 </div>
               </div>
               <div class="col-md-4">
                 <div class="education-experience">
-                  <small class="date">2012-2011</small>
-                  <h3 class="h5 date-title">Motion Design Course</h3>
-                  <p>Pascal’s Lee Studio</p>
+                  <small class="date">2020-2021</small>
+                  <h3 class="h5 date-title">Data Analytics and Visualization</h3>
+                  <p>University of Minnesota - Twin Cities</p>
                 </div>
               </div>
             </div>
@@ -154,17 +201,17 @@
             <div class="row">
               <div class="col-md-4">
                 <div class="language-experience">
-                  <h3 class="h5">English  <small>Bilingual</small></h3>
+                  <h3 class="h5">English  <small>Fluent</small></h3>
                 </div>
               </div>
               <div class="col-md-4">
                 <div class="language-experience">
-                  <h3 class="h5">French  <small>Fluent</small></h3>
+                  <h3 class="h5">Swedish  <small>Fluent</small></h3>
                 </div>
               </div>
               <div class="col-md-4">
                 <div class="language-experience">
-                  <h3 class="h5">Russian  <small>Beginner</small></h3>
+                  <h3 class="h5">Spanish  <small>Beginner</small></h3>
                 </div>
               </div>
             </div>
