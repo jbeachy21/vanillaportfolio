@@ -119,16 +119,19 @@
                 <h3 class="h5"><a href="https://jbeachy21.github.io/Giftastic/index.html">
                 Giftastic</a></h3>
                   <a href="https://github.com/jbeachy21/jbeachy21.github.io/tree/master/Giftastic"><span class="iconify-inline" data-icon="akar-icons:github-fill"></span></a>
+                  <a href="#" id="giftastic-info"><span class="iconify-inline" data-icon="emojione-v1:circled-information-source" ></span></a>
               </div>
               <div class="col-md-4">
                 <img src="./assets/images/clickygame.png" class="img-responsive" alt="">
                 <h3 class="h5"><a href="https://agile-fjord-96128.herokuapp.com/">Clicky Game</a></h3>
                 <a href="https://github.com/jbeachy21/clickygame"><span class="iconify-inline" data-icon="akar-icons:github-fill"></span></a>
+                <a href="#" id="clicky-info"><span class="iconify-inline" data-icon="emojione-v1:circled-information-source" ></span></a>
               </div>
               <div class="col-md-4">
                 <img src="./assets/images/jamster.jpg" class="img-responsive" alt="">
                 <h3 class="h5"><a href="https://betterjamster.herokuapp.com/">Jamster</a></h3>
                 <a href="https://github.com/jbeachy21/clickygame"><span class="iconify-inline" data-icon="akar-icons:github-fill"></span></a>
+                <a href="#" id="jamster-info"><span class="iconify-inline" data-icon="emojione-v1:circled-information-source" ></span></a>
               </div>
             </div>
 
@@ -141,20 +144,51 @@
                 <h3 class="h5"><a href="https://leaflet-omega.vercel.app/">
                 USGS Mapping</a></h3>
                   <a href="https://github.com/jbeachy21/Leaflet"><span class="iconify-inline" data-icon="akar-icons:github-fill"></span></a>
+                  <a href="#" id="leaflet-info"><span class="iconify-inline" data-icon="emojione-v1:circled-information-source" ></span></a>
               </div>
               <div class="col-md-4">
                 <img src="./assets/images/sasquatch.png" class="img-responsive" alt="">
-                <h3 class="h5"><a href="https://project-two-the-sasquatch-affair-1-git-main-jbeach17.vercel.app/">The Sasquatch Affair</a></h3>
+                <h3 class="h5"><a href="https://project-two-the-sasquatch-affair-1-git-main-jbeach17.vercel.app/">Mapping The Truth</a></h3>
                 <a href="https://github.com/jbeachy21/Project-Two-The-Sasquatch-affair--1"><span class="iconify-inline" data-icon="akar-icons:github-fill"></span></a>
+                <a href="#" id="truth-info"><span class="iconify-inline" data-icon="emojione-v1:circled-information-source" ></span></a>
+                <a href="https://www.trilogyed.com/blog/mapping-the-truth-how-one-group-of-data-analysts-cleaned-up-dirty-data-to-find-bigfoot/" id="truth-article"><span class="iconify-inline" data-icon="emojione:newspaper"></span></a>
               </div>
               <div class="col-md-4">
                 <img src="./assets/images/railsblog.png" class="img-responsive" alt="">
                 <h3 class="h5"><a href="https://dry-plateau-28540.herokuapp.com/">Rails Blog</a></h3>
                 <a href="https://github.com/jbeachy21/rails-blog"><span class="iconify-inline" data-icon="akar-icons:github-fill"></span></a>
+                <a href="#" id="rails-info"><span class="iconify-inline" data-icon="emojione-v1:circled-information-source" ></span></a>
               </div>
             </div>
           </div>
         </div>
+
+        <script>
+          tippy('#giftastic-info', {
+            content: 'This project uses the Giphy API to display GIFs pretaining to name of the button clicked. Additional buttons can also be added and then used to display GIFs.',
+          });
+          tippy('#clicky-info', {
+            content: 'My first project using react, a simple memory game, which after clicking a card will shuffle and if any card is clicked twice will reset the score to 0.',
+          });
+          tippy('#jamster-info', {
+            content: 'Jamster is a react application designed for musicians, with the intention of matching them with other musicians who wish to jam. To start, create an account, enter your email, password, and select your primary instrument and skill level.',
+          });
+          tippy('#leaflet-info', {
+            content: 'This project makes use of the Mapbox API in order to plot USGS data on a Leaflet map.',
+          });
+          tippy('#truth-info', {
+            content: 'A data dashboard featuring Bigfoot and UFO sighting data.  Specifically, 3 figures are used to visualize data: a histogram of sightings by state, an interactive Leaflet map to geographically show UFO and Bigfoot sightings and finally a custom report viewer so that reports of each sighting may be read.',
+          });
+          tippy('#rails-info', {
+            content: 'Creative side project in which I learned Ruby on Rails in order to create a blogging application.  In the rails blog, you may log in, create articles, and post comments.  Additionally, this application uses postgres for the database, devise for authentication, pagy for pagination, ruby faker for seeded data, bootstrap for styled components, and minitest for testing.',
+          });
+          tippy('#truth-article', {
+            content: 'Mapping the Truth article',
+          });
+
+
+
+        </script>
 
         <div class="card">
           <div class="card-block">
