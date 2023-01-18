@@ -16,6 +16,7 @@
   <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
   <script src="https://unpkg.com/@popperjs/core@2"></script>
   <script src="https://unpkg.com/tippy.js@6"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.0.943/pdf.min.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
   <title>Jasper Beachy</title>  
    
@@ -186,7 +187,7 @@
         </div>
 
         <div class="card">
-          <div class="card-block">
+          <!-- <div class="card-block">
             <h2>Projects</h2>
             <div class="row">
               <div class="col-md-4">
@@ -211,8 +212,9 @@
             </div>
 
             
-          </div>
+          </div> -->
           <div class="card-block">
+            <h2>Projects</h2>
             <div class="row">
               <div class="col-md-4">
                 <img src="./assets/images/leaflet.png" class="img-responsive" alt="">
@@ -228,10 +230,16 @@
                 <a href="#" id="truth-info"><span class="iconify-inline" data-icon="emojione-v1:circled-information-source" ></span></a>
                 <a href="https://www.trilogyed.com/blog/mapping-the-truth-how-one-group-of-data-analysts-cleaned-up-dirty-data-to-find-bigfoot/" id="truth-article"><span class="iconify-inline" data-icon="emojione:newspaper"></span></a>
               </div>
-              <div class="col-md-4">
+              <!-- <div class="col-md-4">
                 <img src="./assets/images/railsblog.png" class="img-responsive" alt="">
                 <h3 class="h5"><a href="https://dry-plateau-28540.herokuapp.com/">Rails Blog</a></h3>
                 <a href="https://github.com/jbeachy21/rails-blog"><span class="iconify-inline" data-icon="akar-icons:github-fill"></span></a>
+                <a href="#" id="rails-info"><span class="iconify-inline" data-icon="emojione-v1:circled-information-source" ></span></a>
+              </div> -->
+              <div class="col-md-4">
+                <object data="./assets/images/artemis.docx.pdf" type="application/pdf"></object>
+                <h3 class="h5"><a href="https://docs.google.com/document/d/1ZQcQwyrh1xliyScJJXjkHRbKdIHO4RYn/edit">Artemis Penetration Test Report</a></h3>
+                 
                 <a href="#" id="rails-info"><span class="iconify-inline" data-icon="emojione-v1:circled-information-source" ></span></a>
               </div>
             </div>
@@ -255,7 +263,7 @@
             content: 'A data dashboard featuring Bigfoot and UFO sighting data.  Specifically, 3 figures are used to visualize data: a histogram of sightings by state, an interactive Leaflet map to geographically show UFO and Bigfoot sightings and finally a custom report viewer so that reports of each sighting may be read.',
           });
           tippy('#rails-info', {
-            content: 'Creative side project in which I learned Ruby on Rails in order to create a blogging application.  In the rails blog, you may log in, create articles, and post comments.  Additionally, this application uses postgres for the database, devise for authentication, pagy for pagination, ruby faker for seeded data, bootstrap for styled components, and minitest for testing.',
+            content: 'Sample report about fictitious company, Artemis.',
           });
           tippy('#truth-article', {
             content: 'Mapping the Truth article',
@@ -264,6 +272,8 @@
 
 
         </script>
+
+        
 
         <div class="card">
           <div class="card-block">
